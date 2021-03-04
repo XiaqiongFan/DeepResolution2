@@ -8,11 +8,11 @@ Deep-Learning-Based Multivariate Curve Resolution 2.0 (DeepResolution2.0) method
 
 # Installation
 
-python and TensorFlow
+python and TensorFlow:
 Python 3.6.5，available at [https://www.python.org.](https://www.python.org/) 
 TensorFlow (version 2.0.0-GPU)，available at [https://github.com/tensorflow.](https://github.com/tensorflow) 
 
-dependent packages
+dependent packages:
 The packages mainly include: numpy,Scipy,Matplotlib,pandas and os.
 These packages are included in the integration tool Anaconda [(https://www.anaconda.com).](https://www.anaconda.com/) 
 
