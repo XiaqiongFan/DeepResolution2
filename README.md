@@ -1,9 +1,12 @@
-# DeepResolution2.0
-Deep-Learning-Based Multivariate Curve Resolution 2.0 
+# DeepResolution2
+Deep learning-assisted multivariate curve Resolution 2
 
 ----------
-Deep-Learning-Based Multivariate Curve Resolution 2.0 (DeepResolution2.0) method has been proposed for automatic resolution of GC-MS data. It has excellent performance in resolving overlapped peaks and is suitable for large-scale data analysis. Compared with the classical multi-curve resolution method, it has the characteristics of fast, accurate and fully automatic.
+Deep-Learning-Based Multivariate Curve Resolution 2 (DeepResolution2) was proposed for automatic resolution of GC-MS data. It utilized deep neural networks to divide the profile into segments, estimate the number of components in each segment, predict the elution region of each component in overlapped peaks, and resolve the overlapped peaks.  
 
+<div align="center">
+<img src="https://raw.githubusercontent.com/xiaqiong/DeepResolution/master/Flowchart%20of%20DeepResolution.png" width=647 height=480 />
+</div>
 
 
 # Installation
