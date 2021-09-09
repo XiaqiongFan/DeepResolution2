@@ -5,19 +5,19 @@ Deep learning-assisted multivariate curve Resolution 2
 Deep-Learning-Based Multivariate Curve Resolution 2 (DeepResolution2) was proposed for automatic resolution of GC-MS data. It utilized deep neural networks to divide the profile into segments, estimate the number of components in each segment, predict the elution region of each component in overlapped peaks, and resolve the overlapped peaks.  
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/XiaqiongFan/DeepResolution2.0/main/workflow.jpg" width=800 height=600 />
+<img src="https://raw.githubusercontent.com/XiaqiongFan/DeepResolution2/main/workflow.jpg" width=809 height=600 />
 </div>
 
 
 # Installation
 
 python and TensorFlow:
-Python 3.6.5，available at [https://www.python.org.](https://www.python.org/) 
-TensorFlow (version 2.0.0-GPU)，available at [https://github.com/tensorflow.](https://github.com/tensorflow) 
+[Python 3.6.5](https://www.python.org/) 
+[TensorFlow (version 2.0.0-GPU)](https://github.com/tensorflow) 
 
 dependent packages:
 The packages mainly include: numpy,Scipy,Matplotlib,pandas and os.
-These packages are included in the integration tool Anaconda [(https://www.anaconda.com).](https://www.anaconda.com/) 
+These packages are included in the integration tool [Anaconda.](https://www.anaconda.com/) 
 
 # Clone the repository and run it directly
 [git clone](https://github.com/xiaqiong/DeepResolution) 
