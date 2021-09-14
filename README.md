@@ -13,17 +13,15 @@ Deep-Learning-Based Multivariate Curve Resolution 2 (DeepResolution2) was propos
 
 python and TensorFlow:
 
-[Python 3.6.5](https://www.python.org/) 
+Python 3.6.5 and TensorFlow (version 2.0.0-GPU)
 
-[TensorFlow (version 2.0.0-GPU)](https://github.com/tensorflow) 
-
-dependent packages:
-The packages mainly include: numpy,Scipy,Matplotlib,pandas and os.
-
-These packages are included in the integration tool [Anaconda.](https://www.anaconda.com/) 
+The main packages can be seen in [requirements.txt](https://github.com/XiaqiongFan/DeepResolution2/blob/main/requirements.txt)
 
 # Clone the repository and run it directly
 [git clone](https://github.com/xiaqiong/DeepResolution) 
+
+An example has been provided in [Usage.ipynb](https://github.com/XiaqiongFan/DeepResolution2/blob/main/usage/Usage.ipynb) script for the convenience of users. 
+
 
 # Download the model and run directly
 
