@@ -98,7 +98,6 @@ def UNet4R(work_path,m,ind_st,ind_en,model_size,COM):
     tf.keras.backend.clear_session()
     ops.reset_default_graph()
     restored_model = tf.keras.models.load_model(work_path+'/model/UNet4R/'+str(COM)+'/model.h5')    
-    restored_model.summary()
     y_UNet4R = restored_model.predict(Xtest)
 
     return y_UNet4R,Xtest
