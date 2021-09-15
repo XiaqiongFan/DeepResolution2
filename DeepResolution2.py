@@ -352,7 +352,7 @@ def MCR(x,y_UNet4R_M,PCA,method,STA,END,RT,result_path):
             S_MCR = S
         else:
             S_MCR = np.concatenate((S_MCR,S),0)
-        plot_chrom(x,re_chrom,COM,method,result_path,RT[STA],RT[END],R2,y_UNet4R_M) 
+        #plot_chrom(x,re_chrom,COM,method,result_path,RT[STA],RT[END],R2,y_UNet4R_M) 
 
 ################################## FRR #######################################
 
@@ -370,7 +370,7 @@ def MCR(x,y_UNet4R_M,PCA,method,STA,END,RT,result_path):
                     Speak.append(Snum) 
                     MCR_method.append(method)
                 S_MCR = np.concatenate((S_MCR,S),0)
-                plot_chrom(x,re_chrom,COM,method,result_path,RT[STA],RT[END],R2,y_UNet4R_M) 
+                #plot_chrom(x,re_chrom,COM,method,result_path,RT[STA],RT[END],R2,y_UNet4R_M) 
             
  
     return{'RT':retention_time,'ms':S_MCR,'OVER':overlapping_num,
