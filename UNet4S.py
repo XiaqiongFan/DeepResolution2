@@ -217,7 +217,7 @@ def UNet4S(work_path,data_file,model_size,distance,threshold):
     RT = data_file['rt']
     segs,segs_unfold,tics,RTs = process_UNet4S(X,RT,model_size)   
     restored_model = tf.keras.models.load_model(work_path+'/model/UNet4S/model.h5') 
-    restored_model.summary()
+
     y_DeepSegPred  = restored_model.predict(segs_unfold)
 
 
