@@ -84,7 +84,7 @@ def kCNN(work_path,data_file,ind_st,ind_en,model_size):
         X_PCA[k,:,0]=xx
     
     restored_model = tf.keras.models.load_model(work_path+'/model/kCNN/model.h5') 
-    restored_model.summary()
+
     y_kCNN = restored_model.predict_classes(X_PCA)
     y_kCNN = y_kCNN+np.ones(len(y_kCNN))
     y_kCNN = y_kCNN.astype(int)
