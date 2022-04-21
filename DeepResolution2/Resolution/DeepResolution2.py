@@ -386,7 +386,7 @@ if __name__ == '__main__':
     work_path = 'C:/Users/admin/Desktop/DeepResolution2_upload'
     model_size=128
     
-    data_path = 'F:/GCMS/male infertility plasma'
+    data_path = 'F:/GCMS/data'
     result_path = work_path+'/resultpath'
     mkdir(result_path)
     pathDir = os.listdir(data_path) 
@@ -397,7 +397,7 @@ if __name__ == '__main__':
     
 
         ncr = netcdf_reader(data_file, bmmap=False)
-        m = ncr.mat(1,8774, 1)
+        m = ncr.mat(1,3599, 1)
     
         #########################  U-Net4S  ################################
         tf.keras.backend.clear_session()
